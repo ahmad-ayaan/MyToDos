@@ -45,7 +45,7 @@ This project demonstrates backend development skills including:
 ---
 
 ## 📁 Project Structure
-
+```text
 MyToDos/
 │
 ├── src/main/java/
@@ -70,7 +70,7 @@ MyToDos/
 │
 ├── .gitignore
 └── README.md
-
+```
 ## ⚙️ Setup Instructions
 
 ### 1️⃣ Clone Repository
