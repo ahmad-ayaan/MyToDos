@@ -2,16 +2,23 @@
 .project
 .classpath
 .settings/
+.jsdtscope
+
+# Eclipse prefs
+*.prefs
 
 # Compiled files
 *.class
 
 # Build folders
-/target/
-/build/
+build/
+target/
 
 # Logs
 *.log
+
+# Eclipse WTP
+org.eclipse.wst.*
 
 # OS files
 .DS_Store
