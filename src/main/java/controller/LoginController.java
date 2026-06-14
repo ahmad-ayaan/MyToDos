@@ -41,10 +41,9 @@ public class LoginController extends HttpServlet {
 				HttpSession session = request.getSession();
 				session.setAttribute("username", name);
 				session.setAttribute("userId", id);
-				response.sendRedirect(request.getContextPath() + "/task");
+				response.sendRedirect(request.getContextPath() + "/tasks.jsp");
 
 			} else {
-
 				request.setAttribute("errorMessage", "Invalid username or password!");
 				request.getRequestDispatcher("login.html").forward(request, response);
 			}
