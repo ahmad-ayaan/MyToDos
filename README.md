@@ -71,30 +71,92 @@ MyToDos/
 ├── .gitignore
 └── README.md
 ```
-## ⚙️ Setup Instructions
 
-### 1️⃣ Clone Repository
+## 📸 Screenshots
+
+### 🏠 Home Page
+
+![Home Page](Screenshots/HomePage.png)
+
+### 📝 Registration Page
+
+![Registration Page](Screenshots/RegisterationPage.png)
+
+### 🔐 Login Page
+
+![Login Page](Screenshots/LoginPage.png)
+
+
+🔧 Installation & Setup
+1. Clone the Repository
 git clone https://github.com/ahmad-ayaan/MyToDos.git
+2. Open in IDE
 
-2️⃣ Import into Eclipse
-Open Eclipse
-File → Import → Existing Dynamic Web Project
-Select the project folder
+Import the project into:
 
-3️⃣ Configure Server
-Add Apache Tomcat in Eclipse
-Deploy project to server
+Eclipse IDE
+IntelliJ IDEA
+NetBeans
 
-4️⃣ Database Setup
-Create MySQL database (example: todos_db)
-Configure connection in dbConnection.java
-Update username/password as per your system
+3. Configure Database
 
-5️⃣ Run the Project
-Right click project → Run on Server
+Install MySQL
+Create the database
+Update JDBC credentials
+For detailed database configuration instructions, see:
 
-Open browser:
+[DATABASE_SETUP.md](DATABASE_SETUP.md)
 
-http://localhost:8080/MyToDos/
+5. Deploy on Apache Tomcat
+
+Add the project to Tomcat and start the server.
+
+5. Run the Application
+
+Open your browser and navigate to:
+
+http://localhost:8080/MyToDos
+🎯 Learning Outcomes
+
+This project helped me gain practical experience with:
+
+Java Servlet Development
+JSP Pages
+JDBC Connectivity
+MySQL Integration
+MVC Architecture
+Session Management
+Authentication & Authorization
+CRUD Operations
+Web Application Development
+🔮 Future Improvements
+Edit / Update Tasks
+Password Hashing using BCrypt
+Task Categories
+Due Dates and Reminders
+Responsive UI Design
+Search and Filter Tasks
+REST API Integration
+Docker Deployment
+🤝 Contributing
+
+Contributions, suggestions, and improvements are welcome.
+
+Fork the repository
+Create a feature branch
+Commit your changes
+Push to your branch
+Open a Pull Request
+📄 License
+
+This project is open source and available under the MIT License.
+
+👨‍💻 Author
+
+Ayaan Ahmad
+
+GitHub: https://github.com/ahmad-ayaan
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
 ```bash
 git clone https://github.com/ahmad-ayaan/MyToDos.git
